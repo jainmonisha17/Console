@@ -4,8 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console
-{
+namespace ConsoleApp{
     class Student
     {
        public int studentId { get; set; }

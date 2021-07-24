@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console
+namespace ConsoleApp
 {
     class Program : Parent
     {
@@ -16,7 +16,8 @@ namespace Console
             obj.studentId = 1;
             obj.rollNo = "3BSC40";
             Console.WriteLine("Name : " + obj.name);
-            Console.WriteLine("Student id : " + studentId);
+            Console.WriteLine("Student ID : " + obj.studentId);
+            Console.WriteLine("Roll no : " + obj.rollNo);
             Console.ReadLine();
         }
     }
